@@ -1,0 +1,99 @@
+footer {
+
+    padding: 30px 4%;
+    box-shadow: 0 0 40px 10px rgba(12, 165, 253, 0.288);
+
+    
+    }
+
+footer .flex{
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    
+    }
+
+    .logo a img{
+
+        width: 98px;
+        height: 98px;
+    
+      }
+
+      .social-media-button {
+
+        display:flex;
+        gap: 18px;
+        border: none;
+        
+       }
+
+      .social-media-button  a{
+
+        text-decoration: none;
+        
+       }
+     
+       .social-media-button i {
+     
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 30px;
+        height: 50px;
+        color: white;
+        background-color: #0ca5fd;
+        border-radius: 50px;
+        cursor: pointer;
+        box-shadow: 0px 0px 8px #0ca5fdd7;
+        transition: .2s;
+     
+       }
+     
+       .social-media-button i:hover {
+     
+         box-shadow: 0px 0px 8px #0ca5fd3a;
+         transform: scale(1.05);
+     
+       }
+
+       .footer-Copy{
+
+        margin-top: 50px;
+        color: var(--color-primary-5);
+
+       }
+
+       .btn-whatsapp img{
+
+        position: fixed;
+        right: 24px;
+        bottom: 14px;
+        max-width: 74px;
+        transition: transform 0.4s;
+        }
+        
+        .btn-whatsapp img:hover {
+        
+        transform: scale(1.1);
+        
+        }
+
+        
+  @media  screen and (max-width: 1140px) {
+  
+    .flex{
+
+      flex-direction: column-reverse;
+
+    }
+
+    .footer-Copy{
+
+     text-align: center;
+
+     }
+
+    }

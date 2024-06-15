@@ -1,0 +1,190 @@
+.section-hero {
+
+margin: 40px 0;
+
+}
+
+.top-main-titulo{
+
+padding: 90px 0;
+
+}
+
+.top-main-titulo h1 {
+
+text-transform: uppercase;
+color: white;
+font-size: 38px;
+line-height: 40px;
+}
+
+.top-main-titulo h1 span {
+
+text-transform: uppercase;
+color: #0ca5fd;
+line-height: 40px;
+}
+
+.top-main-titulo p {
+
+margin: 40px 0;
+color: white;
+
+}
+
+
+.btn-entrar-contacto button {
+
+    padding: 10px 40px;
+    font-size: 18px;
+    border: none;
+    border-radius: 20px;
+    background-color: var(--color-primary-1);
+    color: white;
+    font-weight: 500;
+    box-shadow: 0px 0px 10px rgba(12, 165, 253, 0.634);
+    cursor: pointer;
+    transition: .2s;
+
+  }
+
+  .btn-entrar-contacto button:hover {
+    
+    box-shadow: 0px 0px 10px rgb(12, 165, 253);
+    transform: scale(1.05);
+    
+  }
+
+  /*Especialidades*/
+
+#especialidades .flex{
+
+padding: 40px 4%;
+gap: 60px;
+
+}
+
+#especialidades-box{
+
+color: white;
+padding: 40px;
+border-radius: 20px;
+border: 2px solid white;
+margin-top: 35px;
+transition: .2s;
+
+}
+
+#especialidades-box:hover{
+
+transform: scale(1.05);
+box-shadow: 0px 0px 15px rgba(12, 165, 253, 0.389);
+
+}
+
+#especialidades-box i{
+
+color: var(--color-primary-1);
+font-size: 58px;
+
+}
+
+#especialidades-box h3{
+
+font-size: 29px;
+font-weight: 600;
+margin: 15px 0;
+
+}
+
+
+
+
+
+@media  screen and (max-width: 1140px) {
+  
+
+    .top-main-titulo{
+
+      padding: 40px 0;
+      
+      }
+
+    .imagem-ADS{
+
+      margin: 0 auto;
+      }
+
+    .imagem-ADS img{
+
+      width: 50vh;
+
+      }
+
+    .top-main-titulo h1{
+
+      font-size: 30px;
+      text-align: center;
+      
+      }
+
+    .top-main-titulo p {
+
+      text-align: center;
+      padding: 0 20px;
+        
+      }
+
+      .btn-entrar-contacto {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+      }
+
+      .interface .title {
+
+       font-size: 35px;
+       margin-top: 50px;
+        
+        }
+
+        #especialidades .flex{
+         
+          gap: 20px;
+          display: flex;
+          align-items: center;
+         
+          }
+
+        #especialidades-box  {
+
+          max-width: 90%;
+         
+          }
+
+        #especialidades-box h3 {
+
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         
+          }
+
+          #especialidades-box i {
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+            }
+
+          #especialidades-box p {
+
+            text-align: center;
+            font-size: 15px;
+            
+            }
+
+}

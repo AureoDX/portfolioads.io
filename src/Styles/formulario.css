@@ -1,0 +1,88 @@
+#formulário{
+
+padding: 80px 4%;
+
+}
+
+form {
+
+max-width: 500px;
+margin: 0 auto;
+display: flex;
+justify-content: center;
+flex-direction: column;
+gap: 10px;
+padding: 40px;
+
+}
+
+form input, textarea {
+
+width: 100%;
+background-color:var(--color-primary-2);
+border: none;
+border-radius: 15px;
+color: white;
+font-size: 15px;
+outline: none;
+padding: 20px 15px;
+
+}
+
+form textarea {
+
+resize: none;
+height: 200px;
+
+}
+
+form textarea::placeholder {
+
+ color: var(--color-primary-3);
+    
+}
+
+form input::placeholder {
+
+ color: var(--color-primary-3);
+    
+}
+
+.btn-enviar{
+
+margin-top: 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.btn-enviar input{
+
+width: 120px;
+background-color: var(--color-primary-1);
+color: white;
+cursor: pointer;
+font-weight: 500;
+font-size: 18px;
+transition: .2s;
+
+
+}
+
+.btn-enviar input:hover {
+
+    box-shadow: 0px 0px 10px rgba(12, 165, 253, 0.858);
+    transform: scale(1.02);
+    
+  }
+
+@media  screen and (max-width: 1140px) {
+
+    form {
+      
+      gap: 23px;
+      
+      }
+
+    }
